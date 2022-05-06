@@ -1,0 +1,5 @@
+.pytest_cache
+urls.json
+**/user_files/*
+Pipfile*
+Pipfile.lock
