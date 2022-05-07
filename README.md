@@ -32,9 +32,9 @@
     in case you want to deploy the app in Linux with Nginx and gunicorn
 
 
-<b>Install guniform</b>
+<b>Install gunicorm</b>
 
-    pipenv install guniform
+    pipenv install gunicorm
 
 <b>run application as service</b>
 
