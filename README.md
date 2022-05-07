@@ -1,8 +1,5 @@
-Welcome
-
-
-# URL Shortener                                   
-# File and folder structure                             
+# Welcome to URL Shortener                                   
+<b>File and folder structure</b>                             
 
 
     This web app will shorten the URL with the name we provide for it.
@@ -34,7 +31,7 @@ Welcome
 
     in case you want to deploy the app in Linux with Nginx and gunicorn
 
-# install nginx in linux 
+# Install nginx in linux 
  
  <table> <th>Ubuntu Command</th> <th>RedHat Command </th> <th> Description  </th> 
   <tr> <td>sudo apt install nginx</td> <td>sudo yum install nginx</td> <td>install nginx in linux </td> </tr>
@@ -42,9 +39,9 @@ Welcome
 Check Nginx service status in Linux: systemctl status nginx
 
 <b>Install guniform</b>
+
     pipenv install guniform
 
 <b>run application as service</b>
-    gunicorn "urlshort:create_app()" -b 0.0.0.0 --daemon
 
- 
+    gunicorn "urlshort:create_app()" -b 0.0.0.0 --daemon
