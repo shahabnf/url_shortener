@@ -1,8 +1,8 @@
 Welcome
 
 
-# URL Shortener
-# File and folder structure
+# URL Shortener                                   
+# File and folder structure                             
 
 
     This web app will shorten the URL with the name we provide for it.
@@ -23,41 +23,22 @@ Welcome
   <tr><td> 2 </td><td>pip3 install pipenv</td> <td> Install pipenv  </td> </tr>
   <tr><td> 3 </td><td>pipenv install</td> <td> Create a virtualized pipenv </td> </tr>
   <tr><td> 4 </td><td>pipenv install flask</td> <td> Install flask on our env </td> </tr>
+  <tr><td> 5 </td><td>pipenv shell</td> <td> Enter into shell envrionment </td> </tr>
+  <tr><td> 6 </td><td>flask run</td> <td> Run Flask in shell environment </td> </tr>
 
+# Set variable and enter into Development mode in Flask
+ <table><th>Row</th> <th>windows Command</th> <th>Linux Command </th> <th> Description  </th> 
+  <tr><td> 1 </td> <td>set FLASK_APP=urlshort</td> <td>export FLASK_APP=urlshort</td> <td>run shell on pipenv</td> </tr>
+  <tr><td> 2 </td> <td>set FLASK_ENV=development</td> <td>export FLASK_ENV=development</td> <td>Set our enviroment into development for realtime feedback</td> </tr>
+ 
 
-# Navigate to the place you want to deploy your application
-1) clone the project
-
-# Install pipenv 
-2) pip3 install pipenv
-
-# Create a virtualized pipenv
-pipenv install
-
-# Install flask on our env
-pipenv install flask
-
-# run shell on pipenv
-windows) set FLASK_APP=urlshort
-Linux) export FLASK_APP=urlshort
-
-# Set our enviroment into development for realtime feedback
-Windows) set FLASK_ENV=development
-Linux) export FLASK_ENV=development
-
-# Enter into shell envrionment
-pipenv shell
-
-# Run Flask in shell environment
-flask run
-
-
-# in case you want to deploy the app in Linux with Nginx and gunicorn
-
+    in case you want to deploy the app in Linux with Nginx and gunicorn
 
 # install nginx in linux 
-Ununtu) sudo apt install nginx
-RedHat) sudo yum install nginx
+ 
+ <table> <th>Ubuntu Command</th> <th>RedHat Command </th> <th> Description  </th> 
+  <tr> <td>sudo apt install nginx</td> <td>sudo yum install nginx</td> <td>install nginx in linux </td> </tr>
+ 
 systemctl status nginx
 
 # Install guniform
