@@ -31,12 +31,11 @@
 
     in case you want to deploy the app in Linux with Nginx and gunicorn
 
-# Install nginx in linux 
+# Install nginx in Linux 
  
- <table> <th>Ubuntu Command</th> <th>RedHat Command </th> <th> Description  </th> 
-  <tr> <td>sudo apt install nginx</td> <td>sudo yum install nginx</td> <td>install nginx in linux </td> </tr>
+ <table><th>Ubuntu Command</th> <th>RedHat Command </th> <th> Description  </th> 
+     <tr><td>sudo apt install nginx</td> <td>sudo yum install nginx</td> <td>install nginx in linux </td> </tr>
  
-Check Nginx service status in Linux: systemctl status nginx
 
 <b>Install guniform</b>
 
