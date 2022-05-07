@@ -23,12 +23,6 @@
   <tr><td> 5 </td><td>pipenv shell</td> <td> Enter into shell envrionment </td> </tr>
   <tr><td> 6 </td><td>flask run</td> <td> Run Flask in shell environment </td> </tr>
 
-<b> Set variable and enter into Development mode in Flask</b>
- <table><th>Row</th> <th>windows Command</th> <th>Linux Command </th> <th> Description  </th> 
-  <tr><td> 1 </td> <td>set FLASK_APP=urlshort</td> <td>export FLASK_APP=urlshort</td> <td>run shell on pipenv</td> </tr>
-  <tr><td> 2 </td> <td>set FLASK_ENV=development</td> <td>export FLASK_ENV=development</td> <td>Set our enviroment into development for realtime feedback</td> </tr>
- 
-
     in case you want to deploy the app in Linux with Nginx and gunicorn
 
 # Install nginx in Linux 
@@ -44,3 +38,10 @@
 <b>run application as service</b>
 
     gunicorn "urlshort:create_app()" -b 0.0.0.0 --daemon
+
+
+<b> Set variable and enter into Development mode in Flask</b>
+ <table><th>Row</th> <th>windows Command</th> <th>Linux Command </th> <th> Description  </th> 
+  <tr><td> 1 </td> <td>set FLASK_APP=urlshort</td> <td>export FLASK_APP=urlshort</td> <td>run shell on pipenv</td> </tr>
+  <tr><td> 2 </td> <td>set FLASK_ENV=development</td> <td>export FLASK_ENV=development</td> <td>Set our enviroment into development for realtime feedback</td> </tr>
+ 
