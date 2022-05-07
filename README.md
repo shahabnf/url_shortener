@@ -1,9 +1,7 @@
-Welcome
+# Welcome to URL Shortener                                   
 
 
-# URL Shortener                                   
-# File and folder structure                             
-
+<b>File and folder structure</b>                             
 
     This web app will shorten the URL with the name we provide for it.
 
@@ -26,6 +24,7 @@ Welcome
   <tr><td> 5 </td><td>pipenv shell</td> <td> Enter into shell envrionment </td> </tr>
   <tr><td> 6 </td><td>flask run</td> <td> Run Flask in shell environment </td> </tr>
 
+    
 # Set variable and enter into Development mode in Flask
  <table><th>Row</th> <th>windows Command</th> <th>Linux Command </th> <th> Description  </th> 
   <tr><td> 1 </td> <td>set FLASK_APP=urlshort</td> <td>export FLASK_APP=urlshort</td> <td>run shell on pipenv</td> </tr>
@@ -34,16 +33,19 @@ Welcome
 
     in case you want to deploy the app in Linux with Nginx and gunicorn
 
+     
 # install nginx in linux 
  
  <table> <th>Ubuntu Command</th> <th>RedHat Command </th> <th> Description  </th> 
   <tr> <td>sudo apt install nginx</td> <td>sudo yum install nginx</td> <td>install nginx in linux </td> </tr>
  
-systemctl status nginx
+     
+Check Nginx service status in Linux: systemctl status nginx
 
-# Install guniform
-pipenv install guniform
+     
+<b>Install guniform</b>
+    pipenv install guniform
 
-# run application as service
-gunicorn "urlshort:create_app()" -b 0.0.0.0 --daemon
+<b>run application as service</b>
+    gunicorn "urlshort:create_app()" -b 0.0.0.0 --daemon
 
