@@ -1,19 +1,19 @@
 Welcome
 
-# -------------------------------------------------------------------------- #
-#                                  URL Shortener                                   #
-#                            File and folder structure                             #
-# ---------------------------------------------------------------------------- #
 
-This web app will shorten the URL with the name we provide for it.
+# URL Shortener
+# File and folder structure
 
-"test_main.py" will be used to test app.
 
-User's files will be saved into web application path "urlshort/static/user_files"
+    This web app will shorten the URL with the name we provide for it.
 
-Webpages are located under "url/template"
+    "test_main.py" will be used to test app.
 
-Main python code is "urlshort.py"
+    User's files will be saved into web application path "urlshort/static/user_files"
+
+    Webpages are located under "url/template"
+
+    Main python code is "urlshort.py"
 
 # -------------------------------------------------------------------------------- #
 #                  To deploy the project use the following commands                #
