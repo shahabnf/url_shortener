@@ -20,7 +20,10 @@ Welcome
 
  <table><th>Row</th> <th>Command </th> <th> Description  </th> 
   <tr><td> 1 </td><td>clone the project</td> <td> Navigate to the place you want to deploy your application </td> </tr>
-  
+  <tr><td> 2 </td><td>pip3 install pipenv</td> <td> Install pipenv  </td> </tr>
+  <tr><td> 3 </td><td>pipenv install</td> <td> Create a virtualized pipenv </td> </tr>
+  <tr><td> 4 </td><td>pipenv install flask</td> <td> Install flask on our env </td> </tr>
+
 
 # Navigate to the place you want to deploy your application
 1) clone the project
@@ -48,9 +51,9 @@ pipenv shell
 # Run Flask in shell environment
 flask run
 
-# -------------------------------------------------------------------------------- #
-#       in case you want to deploy the app in Linux with Nginx and gunicorn        #
-# -------------------------------------------------------------------------------- #
+
+# in case you want to deploy the app in Linux with Nginx and gunicorn
+
 
 # install nginx in linux 
 Ununtu) sudo apt install nginx
