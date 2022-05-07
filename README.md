@@ -15,10 +15,12 @@ Welcome
 
     Main python code is "urlshort.py"
 
-# -------------------------------------------------------------------------------- #
-#                  To deploy the project use the following commands                #
-# -------------------------------------------------------------------------------- #
 
+# To deploy the project use the following commands
+
+ <table><th>Row</th> <th>Command </th> <th> Description  </th> 
+  <tr><td> 1 </td><td>clone the project</td> <td> Navigate to the place you want to deploy your application </td> </tr>
+  
 
 # Navigate to the place you want to deploy your application
 1) clone the project
